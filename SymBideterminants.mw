@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="15" minor="0"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false"></View-Properties>
+<MapleNet-Properties elisiondigitsbefore="100" labelling="true" indentamount="4" elisiontermsthreshold="10000" ansi="false" errorbreak="1" useclientjvm="true" echo="1" imaginaryunit="I" labelwidth="20" contextmenusize="automatic" plotdriver="opengl" elisiondigitsafter="100" plotoutput="terminal" helpbrowser="standard" rtablesize="10" elisiontermsbefore="100" elisiondigitsthreshold="10000" typesetting="standard" plotdevice="inline" verboseproc="1" showassumed="1" errorcursor="false" longdelim="true" plotoptions="" quiet="false" elisiontermsafter="100" screenwidth="79" preplot="" prettyprint="3" displayprecision="-1" screenpixelheight="900" warnlevel="3" screenheight="25" latexwidth="6.0" postplot="" prompt="&gt; " ShowLabels="true"/>
+<Styles><Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Maple Name" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[104,64,92]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Bold" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Menus" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_pstyle5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Fixed Width" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_pstyle3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_pstyle2" background="[255,255,255]" bold="true" executable="true" family="Monospaced" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_pstyle1" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Plot Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="8" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Nonterminal" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Heading" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Italic" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Variable" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Italic Bold" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Default" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Underlined Italic" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Monospaced" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math Bold Small" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Small" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle1" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Page Number" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle3" background="[255,255,255]" bold="true" executable="true" family="Monospaced" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Output Labels" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="8" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Plot Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Emphasized" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Symbol 2" background="[255,255,255]" bold="false" executable="false" family="SymbolPi" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Comment" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="9" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[64,128,64]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Comment" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Underlined Bold" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Copyright" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Help Underlined" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Prompt" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Notes" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Bold" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="LaTeX" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Popup" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Left Justified Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Fixed" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="_pstyle5" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Fixed Width" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="_pstyle3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="_pstyle2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="_pstyle1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Help" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.5" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Left Justified Maple Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.5" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+</Styles>
+<Task-table>
+    <Task-category name="&lt;default&gt;">
+    </Task-category>
+</Task-table>
+<Task>
+</Task>
+<Group labelreference="L4" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2">with(linalg):with(group):with(combinat):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L5" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2">tableau:=proc(partition,numbering)
+ global j,r,s,k,nocols,norows,m,f,i,counter;
+ nocols:=partition[1];
+ norows:=nops(partition);
+ counter:=0;
+ for i to norows do
+  for j to nocols do                                   
+    if j&lt;=partition[i] then                              
+    counter:=counter+1;                                
+     m[i,j]:=numbering[counter]; 
+   else m[i,j]:=0;                                     
+   fi;
+  od;
+ od;                                             
+ f:=(i,j)-&gt;m[i,j];
+matrix(norows,nocols,f);
+end:</Text-field>
+<Text-field style="_cstyle2" layout="_pstyle3"></Text-field>
+<Text-field style="_pstyle3" layout="_pstyle3"><Equation executable="false" style="2D Comment" input-equation="">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2JVEiP0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJw==</Equation><Font style="_cstyle3">changecol:=proc(colmn,L,H)
+local counter,i, newcolmn;
+ counter:=1;
+ for i to nops(colmn) do
+  if member(i,L)=true then
+   newcolmn[i]:=H[counter];
+   counter:=counter+1;
+  else
+   newcolmn[i]:=colmn[i];
+  fi;
+ od;
+[seq(newcolmn[i],i=1..nops(colmn))];
+end:</Font></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2">num:=proc(L,j);
+local count,k;</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2">count:=0;</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2">for k to nops(L) do</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2">   if L[k]=j then</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2">    count:=count+1;</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2">   fi;od;</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2">count;</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2">end:</Text-field>
+</Input>
+<Output>
+<Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20unexpected%20%60local%60%20declaration%20in%20procedure%20body" hyperlink="true"><Font style="HyperlinkError">Error, unexpected `local` declaration in procedure body</Font></Hyperlink></Text-field>
+</Output>
+</Group>
+<Group labelreference="L6" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L7" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2">pos:=proc(L,n)
+local found,i;
+ found:=false;
+ for i to nops(L)while not found do
+  if L[i]=n then
+  found:=true;
+  RETURN(i);
+  fi;
+ od;
+end:
+
+</Text-field>
+</Input>
+</Group>
+<Group labelreference="L8" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2">
+concatlist:=proc(L,g)
+local count,i,l;
+count:=0;
+for i to nops(L) do
+  count:=count+1;
+  l[count]:=eval(L[i]);
+ od;
+ for i to nops(g) do
+  count:=count+1;
+  l[count]:=eval(g[i]);
+ od;
+[seq(l[i],i=1..nops(L)+nops(g))];
+end:
+</Text-field>
+<Text-field style="_cstyle2" layout="_pstyle3"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2">shiftlist:=proc(l,k)
+local i,shift;
+ for i to k-1 do
+  shift[i]:=l[i];
+ od;
+ for i from k to nops(l)-1 do
+  shift[i]:=l[i+1];
+ od;
+[seq(shift[i],i=1..nops(l)-1)];
+end:</Text-field>
+<Text-field style="_cstyle2" layout="_pstyle3"></Text-field>
+<Text-field style="_cstyle2" layout="_pstyle3"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L9" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2"> permsign:=proc(perm)
+ local sigma,N,r,k;
+ sigma:=convert(perm,disjcyc);
+ N:=nops(sigma);
+ r:=add(nops(sigma[k])-1,k=1..N);
+(-1)^r;
+end:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L10" drawlabel="true">
+<Input>
+<Text-field style="_cstyle2" layout="_pstyle3"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L11" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2">pos:=proc(L,n)
+local found,i;
+ found:=false;
+ for i to nops(L)while not found do
+  if L[i]=n then
+  found:=true;
+  RETURN(i);
+  fi;
+ od;
+end:
+
+sgncol:=proc(m)
+local c,j,old,z,v,w,newcol,s;
+  c:=conj(m);
+   for j to coldim(m) do
+    old[j]:=convert(col(m,j),list);
+    z:=zerolist(rowdim(m)-c[j]);
+    v:=difflist(old[j],z);
+    w:=sort(v);
+    newcol[j]:=concatlist(w,z);
+    s[j]:=permsign(colperm(v,w));
+   od;
+ product('s[r]','r'=1..coldim(m));
+end:
+</Text-field>
+</Input>
+</Group>
+<Group labelreference="L12" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2"> permsign:=proc(perm)
+ local sigma,N,r,k;
+ sigma:=convert(perm,disjcyc);
+ N:=nops(sigma);
+ r:=add(nops(sigma[k])-1,k=1..N);
+(-1)^r;
+end:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L13" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L14" drawlabel="true">
+<Input>
+<Text-field style="_cstyle2" layout="_pstyle3"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L15" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2">zerolist:=proc(n)  </Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2">  local i,z;
+ for i to n do
+  z[i]:=0;
+ od;
+[seq(z[i],i=1..n)];
+end:</Text-field>
+<Text-field style="_cstyle2" layout="_pstyle3"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L16" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2">difflist:=proc(L,g)
+local new,k;
+ if g=[] then
+  L;
+ else
+ new[1]:=shiftlist(L,pos(L,g[1]));
+  for k from 2 to nops(g) do
+   new[k]:=shiftlist(new[k-1],pos(new[k-1],g[k]));
+  od;
+  new[nops(g)];
+ fi;
+end:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L17" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2">dupcols:=proc(m)
+local dups,j,i,k,c;
+dups:=false; c:=conj(m);
+for j to coldim(m) while not dups do
+ for i to c[j]-1 while not dups do
+  for k from i+1 to c[j] while not dups do
+  if m[k,j]=m[i,j] then 
+   dups:=true;
+  fi;
+  od;
+ od;
+od;
+RETURN(dups);
+end:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L18" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2">colperm:=proc(c1,c2) 
+local i,j,p,k; 
+ for i from 1 to nops(c1) do
+  for j from 1 to nops(c1) do
+  if c1[i]=c2[j] then
+   p[i]:=j;
+  fi;
+  od;
+ od;
+[seq(p[k],k=1..nops(c1))];
+end:
+</Text-field>
+</Input>
+</Group>
+<Group labelreference="L19" drawlabel="true">
+<Input>
+<Text-field style="_cstyle2" layout="_pstyle3"></Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2">conj:=proc(m)
+local i,j,count,c; 
+ for j to coldim(m) do
+ count:=0;
+  for i to rowdim(m) do
+   if  m[i,j] &lt;&gt; 0 then
+   count:=count+1;
+   fi;
+  od;
+ c[j]:=count;
+ od;
+[seq(c[j],j=1..coldim(m))];
+end:
+</Text-field>
+</Input>
+</Group>
+<Group labelreference="L20" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2">numrow:=proc(L,p,row,target)
+local count,k,j;
+  count:=0;
+  if row=1 then k:=0;
+  else
+   k:=sum(p['i'],'i'=1..row-1);
+  fi;
+  for j from k+1 to k+p[row] do
+   if L[j]=target then
+    count:=count+1;
+   fi;
+  od;
+  count;
+end:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L21" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2"> ava:=proc(L,p,i,j,alpha);
+local count,k,place,r,h,phat,temp,t,g,m,newl;
+  count:=0;
+   for k to nops(L) do
+    if L[k]=j then
+     count:=count+1;
+     place[count]:=k;
+    fi;
+   od;
+  if count=0 or count&lt;alpha then [];
+  else
+    place:=[seq(place[m],m=1..count)];
+    for r to alpha do
+      h[r]:=i;
+    od;
+    for r from alpha+1 to count do
+     h[r]:=j;
+    od;
+    h:=[seq(h[r],r=1..count)];
+    phat:=permute(h);
+    temp:=0;
+    for t to nops(phat) do 
+      q:=changecol(L,place,phat[t]);
+      m:=tableau(p,q);
+     if not dupcols(m) then
+       temp:=temp+1;
+       newl[temp]:=q;
+     fi;
+    od;
+    [seq(newl[t],t=1..temp)];
+  fi;
+end:   </Text-field>
+</Input>
+<Output>
+<Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20unexpected%20%60local%60%20declaration%20in%20procedure%20body" hyperlink="true"><Font style="HyperlinkError">Error, unexpected `local` declaration in procedure body</Font></Hyperlink></Text-field>
+</Output>
+</Group>
+<Group labelreference="L22" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2">Dbiglist:=proc(L,p,i,j,alpha)
+local newlist,k,g;
+if L=[] then newlist:=[]; elif type(L[1], list)=false or nops(L[1])=1 then
+   newlist:=ava(L,p,i,j,alpha);
+ else  
+  newlist:=ava(L[1],p,i,j,alpha);
+   for k from 2 to nops(L) do
+    g:=ava(L[k],p,i,j,alpha);
+    newlist:=concatlist(newlist,g);
+   od;
+ fi;
+  newlist;
+### WARNING: `newlist` is implicitly declared local
+### WARNING: `k` is implicitly declared local
+### WARNING: `g` is implicitly declared local
+end:
+</Text-field>
+</Input>
+</Group>
+<Group labelreference="L23" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L24" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L27" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2">mack:=proc(partition,L);
+local k,m;
+if L=[] then []; elif not type(L[1],list) then [tableau(partition,L)]; 
+else  for k to nops(L) do
+   m[k]:=tableau(partition,L[k]);
+  od;
+
+ [seq(eval(m[k]),k=1..nops(L))];
+fi;
+end:</Text-field>
+</Input>
+<Output>
+<Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20unexpected%20%60local%60%20declaration%20in%20procedure%20body" hyperlink="true"><Font style="HyperlinkError">Error, unexpected `local` declaration in procedure body</Font></Hyperlink></Text-field>
+</Output>
+</Group>
+<Group labelreference="L28" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2">lily:=proc(L,M,p); 
+local count,M!,M2,i,j,a,D,H,J; 
+ count:=0;  
+ M1:=M; M2:=[];
+  for i to nops(p) do
+   for j to p[i] do
+     count:=count+1;
+     a:=numrow(L,p,i,L[count]);
+     if L[count]=i or  count&lt;&gt;1 and L[count]=L[count-1] then
+       M1:=M1;  M2:=M2;
+     elif type(L[count],list) then 
+         if L[count][1]=i then
+         D[count]:=D[i,L[count]];
+         M1:=Dbiglist(M1,p,i,L[count],a);
+         M2:=Dbiglist(M2,p,i,L[count],a);
+          
+    else
+   D[count]:=D[i,L[count]]+D[L[count][1],[i]];
+     M1:=concatlist(Dbiglist(M1,p,i,L[count],a),Dbiglist(M1,p,L[count][1],[i],a));
+         M2:=concatlist(Dbiglist(M2,p,i,L[count],a),Dbiglist(M2,p,L[count][1],[i],a));
+fi;
+      
+ else   
+ D[count]:=D[i,L[count]] - D[[L[count]],[i]];
+        H:=concatlist(Dbiglist(M1,p,i,L[count],a),Dbiglist(M2,p,[L[count]],[i],a));
+
+    J:=concatlist(Dbiglist(M2,p,i,L[count],a),Dbiglist(M1,p,[L[count]],[i],a));
+
+   M1:=H; M2:=J; 
+ fi; 
+
+  od;
+  od;
+[mack(p,M1),mack(p,M2)];
+end:</Text-field>
+</Input>
+<Output>
+<Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20%60!%60%20unexpected" hyperlink="true"><Font style="HyperlinkError">Error, `!` unexpected</Font></Hyperlink></Text-field>
+</Output>
+</Group>
+<Group labelreference="L29" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L30" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2">sympdes:=proc(L,M,partition)
+local S,cS1,i,c,cS2,j,h;  S:=lily(M,L,partition);
+   if S[1]=[] then cS1:=0;
+   else
+    for i to nops(S[1]) do 
+    c[i]:=sgncol(S[1][i]);
+    cS1:=sum('c[k]','k'=1..nops(S[1]));
+    od;
+   fi;
+   if S[2]=[] then cS2:=0;
+   else
+   for j to nops(S[2]) do
+    h[j]:=-sgncol(S[2][j]);
+    cS2:=sum('h[k]','k'=1..nops(S[2]));
+   od;
+fi;cS1+cS2;
+end:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L31" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L32" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2">
+                            
+     </Text-field>
+</Input>
+</Group>
+<Group labelreference="L33" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L34" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2">sympdes([[1],[1],1],[[1],[2],2],[2,1]);</Text-field>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2"></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">ISIi</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L35" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2">sympdes([[1],1,[2],2,3],[[1],[2],[3],1,2],[3,2]);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIh</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L36" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2">sympdes([[1],1,[2],2,3],[[2],[2],3,2,2],[3,2]);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIh</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L37" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2">sympdes([[1],[1],1,1,3],[[2],[2],2,2,3],[3,2]);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">ISIi</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L38" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L39" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2">sympdes([[1],1],[[2],2],[1,1]);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">ISIi</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L40" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2">sympdes([[1],1],[[2],2],[1,1]);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">ISIi</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L41" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="_pstyle2">{I don't know what's going on here} sympdes([[1],[2],1],[[2],2,[2]],[2,1]);</Text-field>
+</Input>
+<Output>
+<Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20missing%20operator%20or%20%60%3B%60" hyperlink="true"><Font style="HyperlinkError">Error, missing operator or `;`</Font></Hyperlink></Text-field>
+</Output>
+</Group>
+<Group labelreference="L42" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Text-field style="_pstyle5" layout="_pstyle5"></Text-field>
+</Worksheet>
